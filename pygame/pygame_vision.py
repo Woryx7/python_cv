@@ -14,7 +14,7 @@ mpDraw = mp.solutions.drawing_utils
 clock = pygame.time.Clock()
 pygame.init()
 screen = pygame.display.set_mode((900, 600))
-pygame.display.set_caption("Juego")
+pygame.display.set_caption("pygame_vision.py")
 run = True
 # Create both app loops
 while run:
@@ -45,3 +45,4 @@ while run:
     # Show the webcam frame
     cv2.imshow("image", img)
     cv2.waitKey(1)
+    clock.tick()
