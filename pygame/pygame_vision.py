@@ -29,16 +29,16 @@ while run:
     # Show hand tracking results if any
     if results.multi_hand_landmarks:
         # Fill the pygame background before displaying points
-        screen.fill((255,255,255))
+        screen.fill((255, 255, 255))
         # display the point tracked on the pygame window
         for handLms in results.multi_hand_landmarks:
             for ids, lm in enumerate(handLms.landmark):
                 # Get the size of the screen
                 h, w, c = img.shape
                 # Mirror and show the points
-                cx, cy = 600-int(lm.x*w), int(lm.y*h)
+                cx, cy = 600 - int(lm.x * w), int(lm.y * h)
                 # Draw them as circles
-                pygame.draw.circle(screen,(0,255,255),(cx,cy),10)
+                pygame.draw.circle(screen, (0, 255, 255), (cx, cy), 10)
             # Flip the screen and show the tracking on the webcam video
             pygame.display.flip()
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
