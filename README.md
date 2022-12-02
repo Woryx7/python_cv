@@ -1,6 +1,6 @@
 # Python Computer Vision
 
-<div style="text-align: justify"> 
+<div style="text-align: right"> 
 This repository is a usage example for the computer vision library OpenCv. I followed the 
 tutorial https://www.youtube.com/watch?v=01sAkU_NvOY&t=815s to replicate the gesture volume
 control. 
