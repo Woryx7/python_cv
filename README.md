@@ -1,6 +1,5 @@
 # Python Computer Vision
 
-<p style='text-align: justify;'> 
 This repository is a usage example for the computer vision library OpenCv. I followed
 the tutorial https://www.youtube.com/watch?v=01sAkU_NvOY&t=815s to replicate the gesture volume
 control. 
@@ -22,4 +21,3 @@ value given by my open hand, and interpolated it to range from the decibels my p
 may be thinking that this approach would not work for larger or smaller hands, and you are correct. 
 As of now, I am working on an statistics approach that would modify these values depending on the variance
 of the pinch distance.
-</p>
