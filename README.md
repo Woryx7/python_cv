@@ -1,4 +1,4 @@
-# Python Computer Vision
+# Volume Control
 
 <div style="text-align: right"> 
 This repository is a usage example for the computer vision library OpenCv. I followed the 
